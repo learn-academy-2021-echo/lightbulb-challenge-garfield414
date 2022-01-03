@@ -1,0 +1,10 @@
+.lightbulb {
+  align-items: center;
+}
+
+.lightbulb button {
+  font-size: 50px;
+  width: 200px;
+  height: 100px;
+  border-radius: 12px;
+}

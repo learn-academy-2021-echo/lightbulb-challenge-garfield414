@@ -1,13 +1,16 @@
-import React, { Component } from 'react'
-import './App.css'
+import React, { Component } from 'react';
+import './App.css';
+import Header from './components/Header/Header';
+import Lightbulb from './components/Lightbulb/Lightbulb';
 
-class App extends Component{
-  render(){
+class App extends Component {
+  render() {
     return(
-      <>
-        <h1>Hello World!</h1>
-      </>
-    )
+      <div className="App">
+        <Header />
+        <Lightbulb />
+      </div>
+    );
   }
 }
-export default App
+export default App;
