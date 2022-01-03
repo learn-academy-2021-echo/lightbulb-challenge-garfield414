@@ -4,10 +4,6 @@ import './Lightbulb.css';
 import bulbOn from '../../lightbulb-on.gif';
 import bulbOff from '../../lightbulb-off.gif';
 
-import bulbOnSwitch from '../../on-button.png'; 
-import bulbOffSwitch from '../../off-button.png';
-
-
 const LightOn = (props) => {
   return (
     <div className="lightbulb">
