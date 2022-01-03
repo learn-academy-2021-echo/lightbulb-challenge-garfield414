@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
 import './Lightbulb.css';
 
+import bulbOn from '../../lightbulb-on.gif';
+import bulbOff from '../../lightbulb-off.gif';
+
+import bulbOnSwitch from '../../on-button.png'; 
+import bulbOffSwitch from '../../off-button.png';
+
+
 const LightOn = (props) => {
   return (
     <div className="lightbulb">
-    <button onClick={props.onClick} style={{backgroundColor:'yellow'}}>
-      On
-    </button>
+      <img src={bulbOn} />
+      <button onClick={props.onClick}>
+        On
+      </button>
     </div>
   );
 };
@@ -14,9 +22,10 @@ const LightOn = (props) => {
 const LightOff = (props) => {
   return (
     <div className="lightbulb">
-    <button onClick={props.onClick} style={{backgroundColor:'white'}}>
-      Off
-    </button>
+      <img src={bulbOff} />
+      <button onClick={props.onClick}>
+        Off
+      </button>
     </div>
   );
 };

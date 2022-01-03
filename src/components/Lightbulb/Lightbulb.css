@@ -3,8 +3,5 @@
 }
 
 .lightbulb button {
-  font-size: 50px;
-  width: 200px;
-  height: 100px;
-  border-radius: 12px;
+  border-radius: 50%;
 }
